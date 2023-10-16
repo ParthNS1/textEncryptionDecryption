@@ -25,13 +25,9 @@ To use this tool, simply open `index.html` in your web browser. No additional se
 
 If you'd like to contribute to this project, feel free to fork it and submit a pull request. We welcome any improvements or bug fixes.
 
-## License
-
-This project is available under the [insert your chosen license here, e.g., MIT License]. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
-If you have any questions or need assistance, you can contact us at [insert your contact email or information here].
+If you have any questions or need assistance, you can contact us at parthns565@gmail.com.
 
 ---
 
