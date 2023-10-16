@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Encryption and Decryption Tool</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text Encryption and Decryption Tool Online</h1>
+        <p>Protect your information and decode messages with our secure online tool.</p>
+        <textarea id="text-input" placeholder="Enter text to encrypt or decrypt"></textarea>
+        <button id="encrypt-button" class="btn">Encrypt</button>
+        <button id="decrypt-button" class="btn">Decrypt</button>
+        <div id="result" class="result">
+            <h3>Result:</h3>
+            <div class="output">
+                <div class="output-header">Encrypted Text:</div>
+                <div id="encrypted-text" class="output-text"></div>
+                <button id="copy-encrypted" class="btn copy-btn">Copy Encrypted</button>
+            </div>
+            <div class="output">
+                <div class="output-header">Decrypted Text:</div>
+                <div id="decrypted-text" class="output-text"></div>
+                <button id="copy-decrypted" class="btn copy-btn">Copy Decrypted</button>
+            </div>
+        </div>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" id="close-popup">&times;</span>
+            <p>Enter the secret key:</p>
+            <input type="password" id="secret-key" class="input-field">
+            <button id="submit-key" class="btn">Submit</button>
+        </div>
+    </div>
+
+    <div class="info">
+        <p>Are you looking for a secure way to protect your sensitive information or decode encrypted messages? Our Text Encryption and Decryption Tool is your go-to solution! This online tool empowers you to safeguard your confidential data or unlock encoded messages effortlessly.</p>
+    
+        <h2>What Can You Do with Our Tool?</h2>
+        <ul>
+            <li>Encrypt Your Messages: With just a few clicks, you can turn your plain text into an unreadable code. This encryption ensures that your information remains safe from prying eyes during transmission or storage.</li>
+            <li>Decrypt Encrypted Text: If you have an encrypted message and the secret key, our tool allows you to effortlessly decrypt it, revealing the original content.</li>
+        </ul>
+    
+        <h2>Why Choose Our Tool?</h2>
+        <ol>
+            <li>User-Friendly Interface: Our tool is designed with simplicity in mind. You don't need to be a tech expert to use it effectively. Just input your text, click a button, and you're done.</li>
+            <li>Security First: We use industry-standard encryption algorithms to ensure that your data remains confidential. Plus, we never store any of your input, so your privacy is guaranteed.</li>
+            <li>Convenience: Need to share an encrypted message? You can easily copy the output and send it to your desired recipient.</li>
+        </ol>
+    
+        <h2>How to Use the Tool</h2>
+        <ol>
+            <li>Input Your Text: Start by entering the text you want to encrypt or decrypt into the large text area.</li>
+            <li>Encryption: Click the "Encrypt" button to transform your text into an encoded form.</li>
+            <li>Decryption: If you have an encrypted message and the corresponding secret key, click the "Decrypt" button to reveal the original content.</li>
+            <li>Copy and Share: You can copy both the encrypted and decrypted text to your clipboard for easy sharing.</li>
+        </ol>
+    
+        <p>Secure, Fast, and Reliable - Whether you're protecting sensitive information or trying to decode a message, our Text Encryption and Decryption Tool is the reliable and secure choice. Your data's safety is our top priority.</p>
+    
+        <p>Don't risk your valuable information - try our tool today and experience the peace of mind that comes with knowing your data is secure.</p>
+    
+        <p>Start encrypting and decrypting with ease now! Your privacy is our mission.</p>
+    </div>    
+    
+    <script src="./index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+</body>
+</html>
